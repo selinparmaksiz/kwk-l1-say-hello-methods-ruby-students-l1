@@ -28,3 +28,8 @@ There is one more thing this method should do: if you call on this method and fo
 4. Once all of the tests are passing, use `learn submit` to submit your lab. 
 
 <p data-visibility='hidden'>KWK-L1 Say Hello Methods Ruby</p>
+
+say_hello(name = "Ruby Programmer")
+  puts Hello #{name}!
+end
+say_hello("Gabriela")
